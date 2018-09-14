@@ -1,1 +1,2 @@
 Flask
+elasticsearch-dsl==6.2.1
