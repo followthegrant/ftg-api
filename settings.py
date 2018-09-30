@@ -15,3 +15,4 @@ ELASTIC = {
 
 PAGINATION = 50
 EXCLUDE_FIELDS = ('host', '@timestamp', '@version')
+ALLOW_ALL = os.getenv('ALLOW_ALL', 'false').lower() == 'true'
